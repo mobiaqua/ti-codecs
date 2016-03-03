@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--  This file conforms to the DTD xdc/bld/release.dtd -->
-<release name="ti_sdo_codecs_h264vdec_ce" label="default" date="1445601141444" buildCount="1" producerId="undefined">
+<release name="ti_sdo_codecs_h264vdec_ce" label="default" date="1455003600217" buildCount="1" producerId="undefined">
 <package name="ti.sdo.codecs.h264vdec.ce"
     version="1, 0, 0"/>
 <imports>
@@ -29,12 +29,6 @@
         <file name="IExeContext.xdc"/>
         <file name="IPeripheral.xdc"/>
         <file name="IPlatform.xdc"/>
-    </package>
-    <package name="ti.sdo.codecs.h264vdec"
-        version="1, 0, 0, 1445601137578"
-        providerId="F:/Releases/rtsc/5.0.3">
-        <file name="H264VDEC.xdc"/>
-        <file name="package.xs"/>
     </package>
     <package name="xdc.services.global"
         version="1, 0, 0, 1275003751833"
@@ -115,6 +109,12 @@
         version="1, 0, 0, 0, 1275003755582"
         providerId="xdccore">
         <file name="java\package.jar"/>
+    </package>
+    <package name="ti.sdo.codecs.h264vdec"
+        version="1, 0, 0, 1455003596245"
+        providerId="E:/release/rtsc/503">
+        <file name="H264VDEC.xdc"/>
+        <file name="package.xs"/>
     </package>
     <xdcRoot base="E:/ccs4_install/xdctools_3_20_01_42_eng/">
         <file name="/packages/xdc/package.xdc"/>
