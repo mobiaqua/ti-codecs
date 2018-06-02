@@ -22,12 +22,6 @@
         <file name="xmlgen.xs"/>
         <file name="xmlgen2.xs"/>
     </package>
-    <package name="ti.sdo.codecs.vc1vdec"
-        version="1, 0, 0, 1514285493186"
-        providerId="F:/Rlease_vc1_dec/rtsc">
-        <file name="VC1VDEC.xdc"/>
-        <file name="package.xs"/>
-    </package>
     <package name="xdc.platform"
         version="1, 0, 1, 0, 1275003732659"
         providerId="xdccore">
@@ -115,6 +109,12 @@
         version="1, 0, 0, 0, 1275003755582"
         providerId="xdccore">
         <file name="java\package.jar"/>
+    </package>
+    <package name="ti.sdo.codecs.vc1vdec"
+        version="1, 0, 0, 1527759834242"
+        providerId="G:/release/rtsc">
+        <file name="VC1VDEC.xdc"/>
+        <file name="package.xs"/>
     </package>
     <xdcRoot base="E:/ccs4_install/xdctools_3_20_01_42_eng/">
         <file name="/packages/xdc/package.xdc"/>

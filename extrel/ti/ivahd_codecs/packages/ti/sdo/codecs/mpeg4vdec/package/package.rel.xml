@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--  This file conforms to the DTD xdc/bld/release.dtd -->
-<release name="ti_sdo_codecs_mpeg4vdec" label="default" date="1512807350199" buildCount="1" producerId="undefined">
+<release name="ti_sdo_codecs_mpeg4vdec" label="default" date="1527774273422" buildCount="1" producerId="undefined">
 <package name="ti.sdo.codecs.mpeg4vdec"
     version="1, 0, 0"/>
 <imports>

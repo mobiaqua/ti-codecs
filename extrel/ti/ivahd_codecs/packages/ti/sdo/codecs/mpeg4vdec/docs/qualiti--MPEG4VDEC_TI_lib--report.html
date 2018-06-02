@@ -23,7 +23,7 @@
     </TD>
   </TR>
   <TR>
-    <TD><B>Date</B></TD><TD>Sat Dec 09 2017 12:02:08 GMT+0530 (IST)</TD>
+    <TD><B>Date</B></TD><TD>Thu May 31 2018 18:28:38 GMT+0530 (IST)</TD>
   </TR>
 
   <TR>
@@ -229,12 +229,12 @@ Determining compiler info.
 
 Chcking if this library was created with a TI compiler...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\ofd6x.exe" -x --xml_indent=0 --obj_display=none "C:\ti\xdais_6_23\report\mpeg4vdec_ti_host.lib" | "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" "&lt;ti_coff&gt;"
-                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_4440.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_45789.sh"
 This library was not  created with a TI compiler.
 
 Attempting to determine library format...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\ofd6x.exe" -x --xml_indent=0 --obj_display=none "C:\ti\xdais_6_23\report\mpeg4vdec_ti_host.lib" | "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" -E "&lt;.*coff&gt;|&lt;.*elf&gt;"
-                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_4441.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_45790.sh"
   &lt;elf&gt;
   &lt;/elf&gt;
   &lt;elf&gt;
@@ -259,7 +259,7 @@ The library is in ELF format.
 
 Attempting to determine the compiler version...
  Running command:&gt; "find.exe" "GCC:" "C:\ti\xdais_6_23\report\mpeg4vdec_ti_host.lib"|"C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" "GCC:"
-                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_4442.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_45791.sh"
   FIND: Parameter format not correct
 The compiler is UNKNOWN.
 
@@ -271,7 +271,7 @@ The compiler is UNKNOWN.
 Running test 'XDAIS Rules 8, 9 and 10'
 Extracting names of global symbols defined by the algorithm...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\nm6x.exe" -g "C:\ti\xdais_6_23\report\mpeg4vdec_ti_host.lib" | "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" " [TBCU] "
-                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_4415.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_45764.sh"
   00000000 U MEMUTILS_getPhysicalAddr
   00000001 T MPEG4VDEC_TI_AcquireAndConfigureHDVICP2
   00000000 U MPEG4VDEC_TI_ActivateInternal
@@ -393,7 +393,7 @@ and that no blacklisted external references are made
 Running test 'XDAIS Rule 12'
 Extracting names of global BSS data symbols...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\nm6x.exe" -g "C:\ti\xdais_6_23\report\mpeg4vdec_ti_host.lib" | "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" " [BD] "
-                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_4420.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_45769.sh"
   00000000 D MPEG4VDEC_TI_IRES
   00000000 D IMPEG4VDEC_PARAMS
   00000000 D IMPEG4VDEC_TI_DYNAMICPARAMS
@@ -431,7 +431,7 @@ Currently, this test cannot be run on non-TI compiled libraries.
 Running test 'XDAIS Rules 21, 22'
 Using sectti on ofd output to find static data & program memory requirements...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\ofd6x.exe" -x --xml_indent=0 --obj_display=none,sections,header "C:\ti\xdais_6_23\report\mpeg4vdec_ti_host.lib" | "C:\Program Files\Texas Instruments\cg_xml\bin\sectti.exe"
-                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_4433.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_45782.sh"
   Reading from stdin ...
   ====================================================================
   REPORT FOR LIBRARY: C:/ti/xdais_6_23/report/mpeg4vdec_ti_host.lib
@@ -512,12 +512,12 @@ Using sectti on ofd output to find static data & program memory requirements...
   .const:MPEG4VDEC_TI_ICONT1_DataSect0 :         32  0x00000020  DATA 
   .const:MPEG4VDEC_TI_ICONT1_DataSect1 :      32208  0x00007dd0  DATA 
   .const:MPEG4VDEC_TI_ICONT1_DataSect2 :       1116  0x0000045c  DATA 
-  .const:MPEG4VDEC_TI_ICONT1_DataSect3 :      32588  0x00007f4c  DATA 
+  .const:MPEG4VDEC_TI_ICONT1_DataSect3 :      32592  0x00007f50  DATA 
   .const:MPEG4VDEC_TI_ICONT2_DataSect0 :         32  0x00000020  DATA 
   .const:MPEG4VDEC_TI_ICONT2_DataSect1 :      26996  0x00006974  DATA 
   .const:MPEG4VDEC_TI_ICONT1_DEBUGTRACELEVEL1_DataSect0 :         32  0x00000020  DATA 
   .const:MPEG4VDEC_TI_ICONT1_DEBUGTRACELEVEL1_DataSect1 :      32376  0x00007e78  DATA 
-  .const:MPEG4VDEC_TI_ICONT1_DEBUGTRACELEVEL1_DataSect3 :      32660  0x00007f94  DATA 
+  .const:MPEG4VDEC_TI_ICONT1_DEBUGTRACELEVEL1_DataSect3 :      32664  0x00007f98  DATA 
   .const:MPEG4VDEC_TI_ICONT2_DEBUGTRACELEVEL1_DataSect0 :         32  0x00000020  DATA 
   .const:MPEG4VDEC_TI_ICONT2_DEBUGTRACELEVEL1_DataSect1 :      27108  0x000069e4  DATA 
   .const:MPEG4VDEC_TI_ICONT1_DEBUGTRACELEVEL2_DataSect0 :         32  0x00000020  DATA 
@@ -582,7 +582,7 @@ Using sectti on ofd output to find static data & program memory requirements...
   ------------------------------------------------------------
   Totals by section type
   ------------------------------------------------------------
-      Initialized Data :     344581  0x00054205
+      Initialized Data :     344589  0x0005420d
                   Code :      18967  0x00004a17
 
 </PRE>
@@ -593,7 +593,7 @@ Using sectti on ofd output to find static data & program memory requirements...
 Running test 'XDAIS Rule 25'
 Using ofd output to parse for endianness attribute...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\ofd6x.exe" -x --xml_indent=0 --obj_display=none,header "C:\ti\xdais_6_23\report\mpeg4vdec_ti_host.lib" | "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" "&lt;ei_data&gt;"
-                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_4438.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_45787.sh"
   &lt;ei_data&gt;ELFDATA2LSB&lt;/ei_data&gt;
   &lt;ei_data&gt;ELFDATA2LSB&lt;/ei_data&gt;
   &lt;ei_data&gt;ELFDATA2LSB&lt;/ei_data&gt;
