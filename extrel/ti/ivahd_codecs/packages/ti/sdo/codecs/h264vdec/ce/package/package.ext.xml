@@ -54,7 +54,7 @@
         <file name="package.xs"/>
     </package>
     <package name="ti.sdo.codecs.h264vdec"
-        version="1, 0, 0, 1474546135374"
+        version="1, 0, 0, 1527744430551"
         providerId="F:/Releases/rtsc/503">
         <file name="H264VDEC.xdc"/>
         <file name="package.xs"/>

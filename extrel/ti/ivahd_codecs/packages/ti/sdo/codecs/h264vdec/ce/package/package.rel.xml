@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--  This file conforms to the DTD xdc/bld/release.dtd -->
-<release name="ti_sdo_codecs_h264vdec_ce" label="default" date="1474546139525" buildCount="1" producerId="undefined">
+<release name="ti_sdo_codecs_h264vdec_ce" label="default" date="1527744434621" buildCount="1" producerId="undefined">
 <package name="ti.sdo.codecs.h264vdec.ce"
     version="1, 0, 0"/>
 <imports>
@@ -54,7 +54,7 @@
         <file name="package.xs"/>
     </package>
     <package name="ti.sdo.codecs.h264vdec"
-        version="1, 0, 0, 1474546135374"
+        version="1, 0, 0, 1527744430551"
         providerId="F:/Releases/rtsc/503">
         <file name="H264VDEC.xdc"/>
         <file name="package.xs"/>

@@ -23,7 +23,7 @@
     </TD>
   </TR>
   <TR>
-    <TD><B>Date</B></TD><TD>Thu Sep 22 2016 16:26:56 GMT+0530 (IST)</TD>
+    <TD><B>Date</B></TD><TD>Wed May 30 2018 19:38:57 GMT+0530 (IST)</TD>
   </TR>
 
   <TR>
@@ -65,8 +65,8 @@
       &nbsp;&nbsp;&nbsp;h264vdec_ti.lib<BR>
 <BR>
       <B>Header File(s):</B><BR>
-      &nbsp;&nbsp;&nbsp;.\ih264vdec.h<BR>
       &nbsp;&nbsp;&nbsp;.\h264vdec_ti.h<BR>
+      &nbsp;&nbsp;&nbsp;.\ih264vdec.h<BR>
 <BR>
     </TD>
 
@@ -229,12 +229,12 @@ Determining compiler info.
 
 Chcking if this library was created with a TI compiler...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\ofd6x.exe" -x --xml_indent=0 --obj_display=none "C:\ti\xdais_6_23\report\h264vdec_ti.lib" | "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" "&lt;ti_coff&gt;"
-                   (from "C:\Users\narendra.kc\AppData\Local\Temp\qualiti_runcmd_998185449624153599.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_53384.sh"
 This library was not  created with a TI compiler.
 
 Attempting to determine library format...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\ofd6x.exe" -x --xml_indent=0 --obj_display=none "C:\ti\xdais_6_23\report\h264vdec_ti.lib" | "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" -E "&lt;.*coff&gt;|&lt;.*elf&gt;"
-                   (from "C:\Users\narendra.kc\AppData\Local\Temp\qualiti_runcmd_8158016866291951108.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_53385.sh"
   &lt;elf&gt;
   &lt;/elf&gt;
   &lt;elf&gt;
@@ -261,7 +261,7 @@ The library is in ELF format.
 
 Attempting to determine the compiler version...
  Running command:&gt; "find.exe" "GCC:" "C:\ti\xdais_6_23\report\h264vdec_ti.lib"|"C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" "GCC:"
-                   (from "C:\Users\narendra.kc\AppData\Local\Temp\qualiti_runcmd_3466737965639711753.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_53386.sh"
   FIND: Parameter format not correct
 The compiler is UNKNOWN.
 
@@ -273,7 +273,7 @@ The compiler is UNKNOWN.
 Running test 'XDAIS Rules 8, 9 and 10'
 Extracting names of global symbols defined by the algorithm...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\nm6x.exe" -g "C:\ti\xdais_6_23\report\h264vdec_ti.lib" | "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" " [TBCU] "
-                   (from "C:\Users\narendra.kc\AppData\Local\Temp\qualiti_runcmd_3354056362049549730.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_53359.sh"
   00000000 U H264VDEC_TI_ValidateSVCTargetLayerID
   00000001 T H264VDEC_TI_calcMaxDispBufs
   00000001 T H264VDEC_TI_control
@@ -418,7 +418,7 @@ and that no blacklisted external references are made
 Running test 'XDAIS Rule 12'
 Extracting names of global BSS data symbols...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\nm6x.exe" -g "C:\ti\xdais_6_23\report\h264vdec_ti.lib" | "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" " [BD] "
-                   (from "C:\Users\narendra.kc\AppData\Local\Temp\qualiti_runcmd_4709438042220510053.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_53364.sh"
   00000000 D __TI_DW.debug_info.$base_types.a909f9055eac2aa839547f7cf4a2a621
   00000000 D __TI_DW.debug_info...\..\..\..\algsrc\inc\GenericComDataType.h.5bf5a8f858acf53812b0a2337545ad8d
   00000000 D __TI_DW.debug_info...\..\..\..\algsrc\inc\H264BPInterface.h.7621e3141fa192539833723eb77fd310
@@ -636,8 +636,8 @@ Currently, this test cannot be run on non-TI compiled libraries.
 <PRE>
 Running test 'XDAIS Rules 21, 22'
 Using sectti on ofd output to find static data & program memory requirements...
- Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\ofd6x.exe" -x --xml_indent=0 --obj_display=none,sections,header "C:\ti\xdais_6_23\report\h264vdec_ti.lib" | "C:\USER_EDIT_THIS_PATH\cg_xml\bin\sectti.exe"
-                   (from "C:\Users\narendra.kc\AppData\Local\Temp\qualiti_runcmd_311038161994255666.sh"
+ Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\ofd6x.exe" -x --xml_indent=0 --obj_display=none,sections,header "C:\ti\xdais_6_23\report\h264vdec_ti.lib" | "C:\Program Files\Texas Instruments\cg_xml\bin\sectti.exe"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_53377.sh"
   Reading from stdin ...
   ====================================================================
   REPORT FOR LIBRARY: C:/ti/xdais_6_23/report/h264vdec_ti.lib
@@ -669,8 +669,8 @@ Using sectti on ofd output to find static data & program memory requirements...
   .const:H264VDEC_TI_ICONT2_DataSect0 :      31152  0x000079b0  DATA 
   .const:H264VDEC_TI_ICONT1_HIGHRES_DataSect0 :        940  0x000003ac  DATA 
   .const:H264VDEC_TI_ICONT2_HIGHRES_DataSect0 :      32136  0x00007d88  DATA 
-  .const:H264VDEC_TI_ICONT1_DataSect1 :      31724  0x00007bec  DATA 
-  .const:H264VDEC_TI_ICONT1_HIGHRES_DataSect1 :      31728  0x00007bf0  DATA 
+  .const:H264VDEC_TI_ICONT1_DataSect1 :      31736  0x00007bf8  DATA 
+  .const:H264VDEC_TI_ICONT1_HIGHRES_DataSect1 :      31740  0x00007bfc  DATA 
   .const:H264VDEC_TI_ICONT1_DataSect3 :      16408  0x00004018  DATA 
   .const:H264VDEC_TI_ICONT1_HIGHRES_DataSect3 :       7264  0x00001c60  DATA 
   .const:H264VDEC_TI_ICONT1_HIGHRES_DataSect4 :      15220  0x00003b74  DATA 
@@ -807,7 +807,7 @@ Using sectti on ofd output to find static data & program memory requirements...
   ------------------------------------------------------------
   Totals by section type
   ------------------------------------------------------------
-      Initialized Data :     542548  0x00084754
+      Initialized Data :     542572  0x0008476c
                   Code :      22001  0x000055f1
 
 </PRE>
@@ -818,7 +818,7 @@ Using sectti on ofd output to find static data & program memory requirements...
 Running test 'XDAIS Rule 25'
 Using ofd output to parse for endianness attribute...
  Running command:&gt; "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\cgtools\bin\ofd6x.exe" -x --xml_indent=0 --obj_display=none,header "C:\ti\xdais_6_23\report\h264vdec_ti.lib" | "C:\ti\xdais_6_23\packages\ti\xdais\qualiti\bin\grep\grep.exe" "&lt;ei_data&gt;"
-                   (from "C:\Users\narendra.kc\AppData\Local\Temp\qualiti_runcmd_5374163008727338253.sh"
+                   (from "C:\Users\prashanth.ka\AppData\Local\Temp\qualiti_runcmd_53382.sh"
   &lt;ei_data&gt;ELFDATA2LSB&lt;/ei_data&gt;
   &lt;ei_data&gt;ELFDATA2LSB&lt;/ei_data&gt;
   &lt;ei_data&gt;ELFDATA2LSB&lt;/ei_data&gt;
